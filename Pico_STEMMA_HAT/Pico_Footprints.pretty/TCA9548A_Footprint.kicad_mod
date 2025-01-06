@@ -200,7 +200,7 @@
 		(uuid "30e4451f-85b0-4dd5-83e3-9ef270bbd3b9")
 	)
 	(fp_line
-		(start 3.9116 -4.0068)
+		(start 4 -4.0068)
 		(end 2.5019 -4.0068)
 		(stroke
 			(width 0.1524)
