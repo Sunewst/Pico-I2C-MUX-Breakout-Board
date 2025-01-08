@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TCA9548APWR ")
 	(property "Reference" "REF**"
-		(at 0 -8 0)
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8ec1bbc0-7ee3-4cf0-b450-c269ff1350d7")
@@ -1240,31 +1240,8 @@
 		(layer "F.Fab")
 		(uuid "d0bd7f16-eee9-4da0-bd35-11f001e19ebc")
 	)
-	(fp_text user "*"
-		(at -3.175 -5.0736 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "60b2e7a6-91a3-45da-bcf0-ecc7a22ceb61")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -3.175 -5.0736 0)
-		(layer "F.SilkS")
-		(uuid "fedeb32e-f702-45cd-84fa-01a0f4cb4bfd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -6 0)
+		(at 0 -7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "19c5d9bc-6f02-4076-bd47-3cc74bc5464c")
