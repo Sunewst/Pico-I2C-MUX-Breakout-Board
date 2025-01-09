@@ -267,4 +267,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "/Users/martin.armand27/Documents/GitHub/desk-project-pico-stemma-hat/REIMAGINED_3D_FILES_BLENDER/PRT-14417.step"
+		(offset
+			(xyz 0 2 -0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
