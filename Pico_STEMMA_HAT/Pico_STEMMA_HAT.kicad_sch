@@ -3009,6 +3009,10 @@
 		(uuid "5dd069e4-49d6-41ca-a9da-26489b6b2ab3")
 	)
 	(no_connect
+		(at 215.9 63.5)
+		(uuid "75e977e1-dd0f-4c35-bae5-34b90b34103d")
+	)
+	(no_connect
 		(at 215.9 43.18)
 		(uuid "86219b34-ddfa-43e4-bde2-9a54509d1950")
 	)
@@ -3035,10 +3039,6 @@
 	(no_connect
 		(at 215.9 35.56)
 		(uuid "a664831e-d654-4914-b7af-c10d4bede17e")
-	)
-	(no_connect
-		(at 215.9 76.2)
-		(uuid "a8ee8431-0bd7-4135-b4de-2b010f7e5774")
 	)
 	(no_connect
 		(at 177.8 38.1)
@@ -3131,6 +3131,16 @@
 			(type default)
 		)
 		(uuid "07197745-6f45-43dd-9cbc-8c209344b8f8")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a715aa-d055-4821-9e79-6e6167b954a2")
 	)
 	(wire
 		(pts
@@ -4024,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 48.26) (xy 49.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6780c653-d156-4680-9ce5-5e8a73f91af3")
-	)
-	(wire
-		(pts
 			(xy 173.99 48.26) (xy 177.8 48.26)
 		)
 		(stroke
@@ -4371,16 +4371,6 @@
 			(type default)
 		)
 		(uuid "87ff2b64-e0e6-4fbb-8950-60fec5b2ab11")
-	)
-	(wire
-		(pts
-			(xy 86.36 45.72) (xy 57.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8952beb3-144b-47e4-ab14-637953ccee60")
 	)
 	(wire
 		(pts
@@ -5151,6 +5141,16 @@
 			(type default)
 		)
 		(uuid "d5232a4f-dc71-4708-9bcd-a551d147bc59")
+	)
+	(wire
+		(pts
+			(xy 57.15 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a98f11-06eb-4b6f-ae69-4703c8c5dc92")
 	)
 	(wire
 		(pts
@@ -5988,8 +5988,8 @@
 		)
 		(uuid "6f7342a9-78fb-4cb6-b1b4-e7f95b56a7e4")
 	)
-	(label "GPIO20{slash}MISO"
-		(at 74.93 45.72 0)
+	(label "GPIO16{slash}DATA_OUT"
+		(at 69.85 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6043,7 +6043,7 @@
 		)
 		(uuid "7a73bf44-2bbb-4911-ac31-551b5b04d18c")
 	)
-	(label "GPIO16{slash}DEC"
+	(label "GPIO16{slash}DATA_OUT"
 		(at 215.9 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6208,7 +6208,7 @@
 		)
 		(uuid "a12f3dfc-1f12-4fc5-a0e1-bf556d17d801")
 	)
-	(label "GPIO17{slash}CARD_DETECT"
+	(label "GPIO17{slash}CS"
 		(at 215.9 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6319,7 +6319,7 @@
 		(uuid "c1960a07-911c-48fa-a14f-692b65013f33")
 	)
 	(label "GPIO21{slash}DAT1"
-		(at 77.47 48.26 0)
+		(at 73.66 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6395,7 +6395,7 @@
 		)
 		(uuid "dedc8f67-b03f-42f8-b06a-55a3996cb357")
 	)
-	(label "GPIO15{slash}CS"
+	(label "GPIO15{slash}CARD_DET"
 		(at 177.8 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6461,7 +6461,7 @@
 		)
 		(uuid "f07e4565-1f0a-48ef-acd5-798c4ca7f0ae")
 	)
-	(label "GPIO15{slash}CS"
+	(label "GPIO17{slash}CS"
 		(at 69.85 53.34 0)
 		(fields_autoplaced yes)
 		(effects
