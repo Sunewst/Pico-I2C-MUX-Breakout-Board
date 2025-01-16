@@ -355,4 +355,15 @@
 			)
 		)
 	)
+	(model "C:/Users/boccs/OneDrive/Documents/GitHub/desk-project-stemma-hat/REIMAGINED_3D_FILES_BLENDER/MEM2061-01-188-00-A_REVA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

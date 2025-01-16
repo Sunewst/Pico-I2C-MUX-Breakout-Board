@@ -256,7 +256,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "4a79fe7f-cc76-44ad-8501-03194b52c172")
 	)
-	(model "C:/Users/boccs/OneDrive/Desktop/FoldersFiles/REIMAGINED_3D_FILES_BLENDER/PRT-14417.step"
+	(model "C:/Users/boccs/OneDrive/Documents/GitHub/desk-project-stemma-hat/REIMAGINED_3D_FILES_BLENDER/PRT-14417.step"
 		(offset
 			(xyz 0 2 -0.3)
 		)

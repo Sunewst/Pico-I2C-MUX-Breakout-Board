@@ -192,4 +192,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "015ff3bf-e508-4647-a145-2ac4f914b778")
 	)
+	(model "C:/Users/boccs/OneDrive/Documents/GitHub/desk-project-stemma-hat/REIMAGINED_3D_FILES_BLENDER/4492.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
