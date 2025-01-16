@@ -1419,7 +1419,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d2b79ed1-4c5d-4cfd-8938-50f4b12b55e9")
 	)
-	(model "C:/Users/boccs/OneDrive/Desktop/FoldersFiles/REIMAGINED_3D_FILES_BLENDER/PW0024A.stp"
+	(model "C:/Users/boccs/OneDrive/Documents/GitHub/desk-project-stemma-hat/REIMAGINED_3D_FILES_BLENDER/PW0024A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1430,7 +1430,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/boccs/OneDrive/Documents/GitHub/desk-project-stemma-hat/REIMAGINED_3D_FILES_BLENDER/PW0024A.stp"
+	(model "/Users/martin.armand27/Documents/GitHub/desk-project-pico-stemma-hat/REIMAGINED_3D_FILES_BLENDER/PW0024A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
