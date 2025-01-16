@@ -1331,7 +1331,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at -5.08 7.874 0)
+			(at -1.016 7.874 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -1459,6 +1459,42 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin power_in line
+				(at -8.89 3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -1.27 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
