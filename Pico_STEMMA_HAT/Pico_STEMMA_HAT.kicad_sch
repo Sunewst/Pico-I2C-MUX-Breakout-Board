@@ -3224,6 +3224,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 66.04) (xy 20.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16de06d5-3066-4d04-9c91-57c71dd3f5d4")
+	)
+	(wire
+		(pts
 			(xy 294.64 74.93) (xy 294.64 80.01)
 		)
 		(stroke
@@ -5374,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 78.74) (xy 20.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07f1a69-3380-4d3f-b43f-62ef06957ea5")
+	)
+	(wire
+		(pts
 			(xy 389.89 39.37) (xy 389.89 44.45)
 		)
 		(stroke
@@ -5557,6 +5577,16 @@
 			)
 		)
 		(uuid "2bb877a8-7a0d-47a3-8df1-d54b75f2b529")
+	)
+	(text "DECOUPlING CAP"
+		(exclude_from_sim no)
+		(at 25.654 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30c41b51-6e33-4f26-816d-94f3cd22b868")
 	)
 	(text "TCA9548A CONNECTIONS"
 		(exclude_from_sim no)
@@ -10610,6 +10640,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 20.32 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "645257e4-1d45-49ae-943d-74d4e51bed39")
+		(property "Reference" "C10"
+			(at 18.542 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 18.542 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 21.2852 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 20.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29d179ee-15c3-45e7-991b-7ded1090afdf")
+		)
+		(pin "2"
+			(uuid "a2e674b2-8fae-483d-a87d-b6c6279cb6e3")
+		)
+		(instances
+			(project "Pico_STEMMA_HAT"
+				(path "/d7f0761f-a3d3-4a87-8eca-6574a8f4791b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 318.77 26.67 0)
 		(unit 1)
@@ -12357,6 +12456,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a74f4e0c-006e-446b-81cf-4f76bb32f1ab")
+		(property "Reference" "#PWR068"
+			(at 20.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d376c270-9dd9-43d4-8b4a-aa91c3b198b6")
+		)
+		(instances
+			(project "Pico_STEMMA_HAT"
+				(path "/d7f0761f-a3d3-4a87-8eca-6574a8f4791b"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 346.71 107.95 0)
 		(unit 1)
@@ -13502,6 +13667,71 @@
 			(project "Pico_STEMMA_HAT"
 				(path "/d7f0761f-a3d3-4a87-8eca-6574a8f4791b"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 20.32 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a97220-e216-4c67-943b-1c67b68c9c52")
+		(property "Reference" "#PWR067"
+			(at 20.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 22.352 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 20.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97cb6964-2dd3-42b3-b487-91ee4bf40be9")
+		)
+		(instances
+			(project "Pico_STEMMA_HAT"
+				(path "/d7f0761f-a3d3-4a87-8eca-6574a8f4791b"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
