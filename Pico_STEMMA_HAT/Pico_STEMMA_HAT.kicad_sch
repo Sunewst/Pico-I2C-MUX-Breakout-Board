@@ -7,9 +7,10 @@
 	(title_block
 		(title "PICO W STEMMA/QWIIC BASE")
 		(date "2024-12-20")
+		(rev "2")
 		(company "Ms. West")
 		(comment 1 "Armando Martinez")
-		(comment 2 "Capstone Project: RE:IMAGINED")
+		(comment 2 "Capstone Project: Encore")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x20_Socket"
