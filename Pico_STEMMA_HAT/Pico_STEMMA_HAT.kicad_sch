@@ -1573,19 +1573,19 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "WS2812B_1_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
+			)
+			(symbol "WS2812B_1_1"
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -3051,7 +3051,7 @@
 		(uuid "129ff6be-f682-4916-b86e-00bf29618a19")
 	)
 	(no_connect
-		(at 82.55 121.92)
+		(at 139.7 160.02)
 		(uuid "163c3890-eafb-4908-b92a-a91bb5249d00")
 	)
 	(no_connect
@@ -3614,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 95.25)
+			(xy 110.49 109.22) (xy 110.49 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3791,16 +3791,6 @@
 			(type default)
 		)
 		(uuid "40cf390a-3cc4-4670-b05a-a56627861180")
-	)
-	(wire
-		(pts
-			(xy 158.75 116.84) (xy 180.34 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414c01f1-1d74-4e80-8baa-9aa528bfbd60")
 	)
 	(wire
 		(pts
@@ -4034,7 +4024,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 129.54) (xy 64.77 133.35)
+			(xy 121.92 167.64) (xy 121.92 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4154,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 57.15 121.92)
+			(xy 97.79 160.02) (xy 114.3 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4274,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 109.22) (xy 64.77 114.3)
+			(xy 121.92 147.32) (xy 121.92 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4311,6 +4301,16 @@
 			(type default)
 		)
 		(uuid "768885a6-ff95-42d5-ac8d-81aa2080d02e")
+	)
+	(wire
+		(pts
+			(xy 170.18 116.84) (xy 180.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d9f803-0d13-4a2c-a1a5-600c2f786a9f")
 	)
 	(wire
 		(pts
@@ -4484,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 121.92) (xy 82.55 121.92)
+			(xy 129.54 160.02) (xy 139.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4791,6 +4791,16 @@
 			(type default)
 		)
 		(uuid "9edd46f9-6447-4765-8a0f-216238346522")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe0510f-5d90-4a9f-bc15-90b64202ad6f")
 	)
 	(wire
 		(pts
@@ -5134,16 +5144,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 180.34 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c818d09e-ceda-4d18-a4a3-c74602bbe6a9")
-	)
-	(wire
-		(pts
 			(xy 34.29 30.48) (xy 34.29 31.75)
 		)
 		(stroke
@@ -5221,6 +5221,16 @@
 			(type default)
 		)
 		(uuid "cf615755-cc10-4a69-90f9-1454da8420ec")
+	)
+	(wire
+		(pts
+			(xy 110.49 120.65) (xy 110.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8cbc3a-8e49-455a-999a-fd404103827c")
 	)
 	(wire
 		(pts
@@ -5334,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 170.18 95.25)
+			(xy 121.92 109.22) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5421,16 +5431,6 @@
 			(type default)
 		)
 		(uuid "e66e902c-8440-4786-9b70-47f5f5cfba84")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 158.75 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a8e16e-99cf-44e8-bf58-b32fb853534c")
 	)
 	(wire
 		(pts
@@ -5524,13 +5524,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 102.87) (xy 170.18 114.3)
+			(xy 121.92 120.65) (xy 121.92 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc387189-ccbb-4752-a384-066e2e3e956b")
+		(uuid "f9128fe1-39d1-4c2f-af6b-7ce93a7551bc")
 	)
 	(wire
 		(pts
@@ -5553,6 +5553,18 @@
 		(uuid "fd992344-3886-4eba-ba45-563b174151ff")
 	)
 	(rectangle
+		(start 100.33 101.6)
+		(end 139.7 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14e158b3-d8c9-4334-b715-9cac0a8d9ace)
+	)
+	(rectangle
 		(start 165.1 17.78)
 		(end 228.6 71.12)
 		(stroke
@@ -5565,8 +5577,8 @@
 		(uuid 31c8958e-5f1a-4109-8ca4-5dede639eeb1)
 	)
 	(rectangle
-		(start 40.64 102.87)
-		(end 86.36 142.24)
+		(start 97.79 140.97)
+		(end 143.51 180.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -5626,7 +5638,7 @@
 	)
 	(text "MQTT STATUS NEOPIXEL\n"
 		(exclude_from_sim no)
-		(at 63.246 100.076 0)
+		(at 120.396 138.176 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5748,7 +5760,7 @@
 	)
 	(text "PULLUP RESISTORS"
 		(exclude_from_sim no)
-		(at 180.34 99.06 90)
+		(at 132.08 116.84 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5758,7 +5770,6 @@
 	)
 	(label "PICO_SDA"
 		(at 170.18 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5769,7 +5780,6 @@
 	)
 	(label "SCL2"
 		(at 215.9 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5780,7 +5790,6 @@
 	)
 	(label "SDA6"
 		(at 396.24 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5791,7 +5800,6 @@
 	)
 	(label "SDA5"
 		(at 396.24 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5802,7 +5810,6 @@
 	)
 	(label "SCL3"
 		(at 215.9 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5813,7 +5820,6 @@
 	)
 	(label "SDA0"
 		(at 336.55 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5824,7 +5830,6 @@
 	)
 	(label "GND"
 		(at 177.8 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5835,7 +5840,6 @@
 	)
 	(label "VBUS"
 		(at 215.9 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5846,7 +5850,6 @@
 	)
 	(label "ADA_VREF"
 		(at 215.9 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,7 +5860,6 @@
 	)
 	(label "GPIO11"
 		(at 177.8 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5868,7 +5870,6 @@
 	)
 	(label "GND"
 		(at 215.9 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5879,7 +5880,6 @@
 	)
 	(label "GPIO13"
 		(at 177.8 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5890,7 +5890,6 @@
 	)
 	(label "GPIO3"
 		(at 177.8 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5901,7 +5900,6 @@
 	)
 	(label "SDA0"
 		(at 215.9 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5912,7 +5910,6 @@
 	)
 	(label "+3V3"
 		(at 215.9 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5921,9 +5918,18 @@
 		)
 		(uuid "301b631f-3d18-4857-9dbd-e17b6ac47254")
 	)
+	(label "PICO_SCL"
+		(at 110.49 130.81 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "367098a2-0f56-43e3-a5e0-72240b2a298f")
+	)
 	(label "SDA4"
 		(at 215.9 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5934,7 +5940,6 @@
 	)
 	(label "GPIO19{slash}DATA_IN"
 		(at 69.85 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5945,7 +5950,6 @@
 	)
 	(label "GPIO9"
 		(at 177.8 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5956,7 +5960,6 @@
 	)
 	(label "SCL4"
 		(at 215.9 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5967,7 +5970,6 @@
 	)
 	(label "GPIO8"
 		(at 177.8 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5978,7 +5980,6 @@
 	)
 	(label "RUN"
 		(at 215.9 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5989,7 +5990,6 @@
 	)
 	(label "SDA1"
 		(at 215.9 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6000,7 +6000,6 @@
 	)
 	(label "GND"
 		(at 177.8 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6011,7 +6010,6 @@
 	)
 	(label "SCL1"
 		(at 215.9 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6022,7 +6020,6 @@
 	)
 	(label "SCL0"
 		(at 336.55 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6033,7 +6030,6 @@
 	)
 	(label "SDA7"
 		(at 396.24 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6044,7 +6040,6 @@
 	)
 	(label "GPIO17{slash}CARD_DETECT"
 		(at 69.85 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6055,7 +6050,6 @@
 	)
 	(label "SCL7"
 		(at 396.24 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6066,7 +6060,6 @@
 	)
 	(label "GPIO0"
 		(at 177.8 20.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6075,9 +6068,18 @@
 		)
 		(uuid "5fb823e9-9f89-4719-a45c-273623dcbc95")
 	)
+	(label "PICO_SDA"
+		(at 121.92 130.81 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63326fb5-c8f4-4897-8741-c7a8a6bd381d")
+	)
 	(label "GPIO27_ADC1"
 		(at 215.9 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6088,7 +6090,6 @@
 	)
 	(label "GND"
 		(at 215.9 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6099,7 +6100,6 @@
 	)
 	(label "GPIO18{slash}SD_CLK"
 		(at 69.85 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6110,7 +6110,6 @@
 	)
 	(label "SCL3"
 		(at 336.55 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6121,7 +6120,6 @@
 	)
 	(label "PICO_SCL"
 		(at 177.8 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6132,7 +6130,6 @@
 	)
 	(label "GPIO16{slash}DATA_OUT"
 		(at 69.85 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6143,7 +6140,6 @@
 	)
 	(label "GPIO17{slash}CARD_DETECT"
 		(at 69.85 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6154,7 +6150,6 @@
 	)
 	(label "SDA2"
 		(at 215.9 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,7 +6160,6 @@
 	)
 	(label "GPIO10"
 		(at 177.8 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6176,7 +6170,6 @@
 	)
 	(label "GPIO22{slash}DAT2"
 		(at 72.39 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6187,7 +6180,6 @@
 	)
 	(label "GPIO16{slash}DATA_OUT"
 		(at 215.9 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,7 +6190,6 @@
 	)
 	(label "SCL0"
 		(at 215.9 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6209,7 +6200,6 @@
 	)
 	(label "GPIO6{slash}NEOPIXEL"
 		(at 177.8 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6220,7 +6210,6 @@
 	)
 	(label "PICO_SCL"
 		(at 170.18 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6231,7 +6220,6 @@
 	)
 	(label "SDA4"
 		(at 396.24 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6242,7 +6230,6 @@
 	)
 	(label "SCL6"
 		(at 396.24 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,7 +6240,6 @@
 	)
 	(label "GND"
 		(at 215.9 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6264,7 +6250,6 @@
 	)
 	(label "SCL7"
 		(at 215.9 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6275,7 +6260,6 @@
 	)
 	(label "SDA7"
 		(at 215.9 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6286,7 +6270,6 @@
 	)
 	(label "GND"
 		(at 215.9 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6297,7 +6280,6 @@
 	)
 	(label "GPIO26_ADC0"
 		(at 215.9 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6308,7 +6290,6 @@
 	)
 	(label "SCL4"
 		(at 396.24 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6319,7 +6300,6 @@
 	)
 	(label "PICO_SDA"
 		(at 177.8 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6330,7 +6310,6 @@
 	)
 	(label "GPIO18{slash}SD_CLK"
 		(at 215.9 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6341,7 +6320,6 @@
 	)
 	(label "SCL5"
 		(at 396.24 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6352,7 +6330,6 @@
 	)
 	(label "GPIO17{slash}CS"
 		(at 215.9 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6363,7 +6340,6 @@
 	)
 	(label "GPIO1"
 		(at 177.8 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6374,7 +6350,6 @@
 	)
 	(label "SCL1"
 		(at 336.55 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6385,7 +6360,6 @@
 	)
 	(label "SDA6"
 		(at 215.9 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6396,7 +6370,6 @@
 	)
 	(label "SCL2"
 		(at 336.55 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6407,7 +6380,6 @@
 	)
 	(label "SDA5"
 		(at 215.9 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6418,7 +6390,6 @@
 	)
 	(label "GPIO14"
 		(at 177.8 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6429,7 +6400,6 @@
 	)
 	(label "GPIO21{slash}DAT1"
 		(at 215.9 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6410,6 @@
 	)
 	(label "SDA1"
 		(at 336.55 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6451,7 +6420,6 @@
 	)
 	(label "GND"
 		(at 177.8 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6462,7 +6430,6 @@
 	)
 	(label "GPIO21{slash}DAT1"
 		(at 73.66 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6473,7 +6440,6 @@
 	)
 	(label "GPIO22{slash}DAT2"
 		(at 215.9 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6484,7 +6450,6 @@
 	)
 	(label "GPIO12"
 		(at 177.8 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6495,7 +6460,6 @@
 	)
 	(label "VSYS"
 		(at 215.9 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6506,7 +6470,6 @@
 	)
 	(label "GPIO2"
 		(at 177.8 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6480,6 @@
 	)
 	(label "SDA2"
 		(at 336.55 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6528,7 +6490,6 @@
 	)
 	(label "GPIO7"
 		(at 177.8 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6539,7 +6500,6 @@
 	)
 	(label "GPIO15{slash}CARD_DET"
 		(at 177.8 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +6510,6 @@
 	)
 	(label "GPIO19{slash}DATA_IN"
 		(at 215.9 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6560,8 +6519,7 @@
 		(uuid "e3dc967c-899e-4087-8744-200c93d459e8")
 	)
 	(label "GPIO6{slash}NEOPIXEL"
-		(at 40.64 121.92 0)
-		(fields_autoplaced yes)
+		(at 97.79 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6572,7 +6530,6 @@
 	)
 	(label "SCL6"
 		(at 215.9 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6583,7 +6540,6 @@
 	)
 	(label "SDA3"
 		(at 336.55 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6594,7 +6550,6 @@
 	)
 	(label "SCL5"
 		(at 215.9 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6605,7 +6560,6 @@
 	)
 	(label "GPIO17{slash}CS"
 		(at 69.85 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6616,7 +6570,6 @@
 	)
 	(label "GPIO28_ADC2"
 		(at 215.9 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6627,7 +6580,6 @@
 	)
 	(label "GND"
 		(at 177.8 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6638,7 +6590,6 @@
 	)
 	(label "SDA3"
 		(at 215.9 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6649,7 +6600,6 @@
 	)
 	(label "3V3_EN"
 		(at 215.9 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6660,7 +6610,6 @@
 	)
 	(label "GPIO20{slash}MISO"
 		(at 215.9 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9537,7 +9486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 170.18 91.44 0)
+		(at 121.92 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9546,7 +9495,7 @@
 		(fields_autoplaced yes)
 		(uuid "4403fc43-8ea7-430d-a022-f92aa27873d9")
 		(property "Reference" "#PWR070"
-			(at 170.18 95.25 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9504,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 170.18 86.36 0)
+			(at 121.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 91.44 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 91.44 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 170.18 91.44 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +11373,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 158.75 99.06 0)
+		(at 110.49 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11433,7 +11382,7 @@
 		(fields_autoplaced yes)
 		(uuid "7614b1b8-7055-43a7-b48d-5435357b9771")
 		(property "Reference" "R24"
-			(at 161.29 97.7899 0)
+			(at 113.03 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11391,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 161.29 100.3299 0)
+			(at 113.03 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,7 +11400,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 159.766 99.314 90)
+			(at 111.506 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +11409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 99.06 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11418,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 158.75 99.06 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +11579,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 91.44 0)
+		(at 110.49 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11639,7 +11588,7 @@
 		(fields_autoplaced yes)
 		(uuid "82943ace-08a0-4c05-87f3-6351379f2618")
 		(property "Reference" "#PWR069"
-			(at 158.75 95.25 0)
+			(at 110.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,7 +11597,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 158.75 86.36 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 91.44 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 91.44 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,7 +11623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 158.75 91.44 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +11993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 133.35 0)
+		(at 121.92 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12053,7 +12002,7 @@
 		(fields_autoplaced yes)
 		(uuid "940cf07b-b82b-48dd-9b16-cd6bf44182b6")
 		(property "Reference" "#PWR071"
-			(at 64.77 139.7 0)
+			(at 121.92 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,7 +12011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 138.43 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,7 +12019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 133.35 0)
+			(at 121.92 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12079,7 +12028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 133.35 0)
+			(at 121.92 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +12037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 133.35 0)
+			(at 121.92 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,7 +14006,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 64.77 109.22 0)
+		(at 121.92 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14066,7 +14015,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8698f8a-f989-4ee8-9c36-2f746f6f4148")
 		(property "Reference" "#PWR055"
-			(at 64.77 113.03 0)
+			(at 121.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14075,7 +14024,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 64.77 104.14 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +14032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 109.22 0)
+			(at 121.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +14041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 109.22 0)
+			(at 121.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14101,7 +14050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 64.77 109.22 0)
+			(at 121.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14259,7 +14208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 170.18 99.06 0)
+		(at 121.92 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14268,7 +14217,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc730223-1f73-449b-a584-0e5aac2466d6")
 		(property "Reference" "R25"
-			(at 172.72 97.7899 0)
+			(at 124.46 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,7 +14226,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 172.72 100.3299 0)
+			(at 124.46 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +14235,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.196 99.314 90)
+			(at 122.936 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14295,7 +14244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 99.06 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14253,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 170.18 99.06 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14413,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 64.77 121.92 0)
+		(at 121.92 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14473,7 +14422,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec77da88-70a7-4d70-b3ae-43dbb94ed37a")
 		(property "Reference" "D2"
-			(at 76.2 115.6014 0)
+			(at 133.35 153.7014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14481,7 +14430,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 76.2 118.1414 0)
+			(at 133.35 156.2414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +14438,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 66.04 129.54 0)
+			(at 123.19 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14499,7 +14448,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 67.31 131.445 0)
+			(at 124.46 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +14458,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 64.77 121.92 0)
+			(at 121.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
