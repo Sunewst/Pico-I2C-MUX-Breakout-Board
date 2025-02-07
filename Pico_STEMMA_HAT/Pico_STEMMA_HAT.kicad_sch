@@ -3062,10 +3062,6 @@
 		(uuid "2faff097-c87c-468a-86c9-fd9548eca66e")
 	)
 	(no_connect
-		(at 215.9 38.1)
-		(uuid "3934fdaa-4522-4716-9e2e-807c7b6d4382")
-	)
-	(no_connect
 		(at 177.8 45.72)
 		(uuid "5168c817-f9b9-479d-9721-25a063c536ed")
 	)
@@ -5869,7 +5865,7 @@
 		)
 		(uuid "222050a4-1ea1-42fd-8aee-cfa48dc1c551")
 	)
-	(label "AGND"
+	(label "GND"
 		(at 215.9 38.1 180)
 		(fields_autoplaced yes)
 		(effects
