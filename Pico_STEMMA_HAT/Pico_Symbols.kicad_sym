@@ -1168,24 +1168,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 2.54 0)
-				(length 5.08)
-				(name "CD/DAT3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -5.08 0 0)
 				(length 5.08)
 				(name "CMD"
@@ -1322,6 +1304,24 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 2.54 0)
+				(length 5.08)
+				(name "CS/DAT3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 		)
