@@ -1,5 +1,5 @@
 # Raspberry Pi Pico W STEMMA QT HAT
- KiCAD files for the Raspberry Pi Pico W STEMMA QT HAT for Project RE:IMAGINED:
+ KiCAD files for the Raspberry Pi Pico W STEMMA QT HAT for Capstone Project ?!
 
 
 ## Changes in Rev 2
@@ -9,3 +9,7 @@ The main change is adding the missing pull-up resistors needed for the tca9548a.
 In order to see the parts on the board when viewing the board in '3D viewer', you will need to adjust the file path in each of the footprints for PC by going to 'Footprint Properties' and then to '3D Models tab' and then adjust the path with 'Configure Paths'
 
 ![KICAD 3D MODEL](Pico_STEMMA_HAT.png)
+
+## OshPark Front and Back View
+![FRONT SIDE](STEMMA_HAT_FRONT.png)
+![BACK SIDE](STEMMA_HAT_BACK.png)
