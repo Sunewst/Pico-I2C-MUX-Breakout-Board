@@ -4531,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 86.36 66.04)
+			(xy 66.04 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5281,7 +5281,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 86.36 68.58)
+			(xy 66.04 68.58) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6413,8 +6413,8 @@
 		)
 		(uuid "538c1904-1852-4c9b-a97b-7abcc1ebb866")
 	)
-	(label "GPIO17{slash}CARD_DETECT"
-		(at 69.85 66.04 0)
+	(label "GPIO20{slash}CD{slash}CARD_DETECT"
+		(at 66.04 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6545,8 +6545,8 @@
 		)
 		(uuid "73c9089e-ddd9-4935-9ebe-d5f488e3c29f")
 	)
-	(label "GPIO17{slash}CARD_DETECT"
-		(at 69.85 68.58 0)
+	(label "GPIO20{slash}CD{slash}CARD_DETECT"
+		(at 66.04 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7095,7 +7095,7 @@
 		)
 		(uuid "fa3a4442-70dd-47b6-886f-f957dcd7e1e7")
 	)
-	(label "GPIO20{slash}MISO"
+	(label "GPIO20{slash}CD{slash}CARD_DETECT"
 		(at 215.9 55.88 180)
 		(fields_autoplaced yes)
 		(effects
