@@ -1,7 +1,7 @@
 # Raspberry Pi Pico W STEMMA QT HAT
  KiCAD files for the Raspberry Pi Pico W STEMMA QT HAT for Capstone Project ?!
 
-## OshPark Order Info for Ms. West
+## OshPark Order Info
 https://docs.google.com/document/d/1SqxGY5_0k2WKVRfSDS7eGBg4YIIRN691AxTP8Kc-8wA/edit?usp=sharing
 
 ## Changes in Rev 2
