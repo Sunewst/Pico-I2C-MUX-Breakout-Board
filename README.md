@@ -1,18 +1,31 @@
-# Raspberry Pi Pico W STEMMA QT HAT
- KiCAD files for the Raspberry Pi Pico W STEMMA QT HAT for Capstone Project ?!
+![Showcase](pcb.jpg)
 
+<div align="center">
 
-## OshPark Order Info for Rev 2 
-https://docs.google.com/document/d/1SqxGY5_0k2WKVRfSDS7eGBg4YIIRN691AxTP8Kc-8wA/edit?usp=sharing
+## Raspberry Pico W Breakout MUX Board
 
-## Changes in Rev 2
-The main change is adding the missing pull-up resistors needed for the tca9548a. Some other QoL changes were also made, such as changing the Neopixel footprint to match the ones we already have in the engineering room, add the ability to connect multiple of these boards by soldering jumper, changing the address. Also made the SD card traces cleaner for OCD reasons. The main purpose of this revision was to add the neccerary pull-up resistors and make sure to allow the access of all the pins in a open spot, even if I don't plan to use them.
+This PCB designed in KiCAD allows a Raspberry Pi Pico W, or normal version, to communicate with 8 I2C devices that have matching addresses. This board is based on breakout muiltiplexers sold by [Adafruit](https://www.adafruit.com/product/5626) and [SparkFun](https://www.sparkfun.com/sparkfun-qwiic-mux-breakout-8-channel-tca9548a.html).
 
-## 3D models of Parts
-In order to see the parts on the board when viewing the board in '3D viewer', you will need to adjust the file path in each of the footprints for PC by going to 'Footprint Properties' and then to '3D Models tab' and then adjust the path with 'Configure Paths'
+</div>
 
-![KICAD 3D MODEL](Pico_STEMMA_HAT.png)
+---
 
-## OshPark Front and Back View
-![FRONT SIDE](STEMMA_HAT_FRONT.png)
-![BACK SIDE](STEMMA_HAT_BACK.png)
+## Arduino and CircuitPython
+This breakout board works with either Arduino or CircuitPython.
+> [!NOTE]
+> For CircuitPython, I would recommend using the [libraries created by Adafruit for TCA9548a MUX use](https://learn.adafruit.com/adafruit-pca9548-8-channel-stemma-qt-qwiic-i2c-multiplexer/circuitpython-python).
+
+---
+
+## Creating and Changing this Design
+1. Download the zip of this repo or clone it
+
+2. Open the KiCAD project file.
+> [!NOTE]
+> This project was updated to KiCAD 9.0.
+
+3. Examine and understand the schematic and PCB layout
+> [!NOTE]
+> The 3D models for the certain compnenemtsn might need to have their file path updated and their 3D models posistion adjusted to appear correctly on your PC.
+
+4. Use your preferred PCB manufacture to order the PCB
