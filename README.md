@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## Raspberry Pico W Breakout MUX Board
+## Raspberry Pi Pico/W Breakout MUX Board
 
 This PCB designed in KiCAD allows a Raspberry Pi Pico W, or normal version, to communicate with 8 I2C devices that have matching addresses. This board is based on breakout muiltiplexers sold by [Adafruit](https://www.adafruit.com/product/5626) and [SparkFun](https://www.sparkfun.com/sparkfun-qwiic-mux-breakout-8-channel-tca9548a.html).
 
