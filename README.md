@@ -14,6 +14,17 @@ This PCB designed in KiCAD allows a Raspberry Pi Pico W, or normal version, to c
 This breakout board works with either Arduino or CircuitPython.
 > [!NOTE]
 > For CircuitPython, I would recommend using the [libraries created by Adafruit for TCA9548a MUX use](https://learn.adafruit.com/adafruit-pca9548-8-channel-stemma-qt-qwiic-i2c-multiplexer/circuitpython-python).
+>
+> The main connection are
+> SDA: GP4
+> SCL: GP5
+>
+> MISO: GP16
+> MOSI: GP19
+> CLK: GP18
+> CS: GP17
+>
+> Neopixel: GP6
 
 ---
 
